@@ -1,0 +1,11 @@
+<p>
+<%= @tweet.message %>
+</p>
+
+<p>
+<%= @tweet.tdate %><br>
+<% t = Time.current.to_i - @tweet.tdate.to_i  %>
+<%= t/60 %>分経過
+</p>
+
+<%= link_to '戻る', :back %>
