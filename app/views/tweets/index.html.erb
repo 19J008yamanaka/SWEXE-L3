@@ -3,13 +3,15 @@
 <% end %>
 
 <% @tweets.each do |tw| %>
-  <p>
+  <div class="message_main">
+    <p>
     <%= tw.message %><br>
     <%= tw.tdate %><br>
     <%= link_to '表示', "tweets/#{tw.id}" %>　
     <%= link_to '削除', "tweets/#{tw.id}", method: :delete %>　
     <%= link_to '編集', "tweets/#{tw.id}/edit" %>　
-  </p>
+    </p>
+  </div>
 <% end %>
 
-  <p><%= link_to 'ツイートする', 'tweets/new' %></p>
+  <!-- <p><%= link_to 'ツイートする', 'tweets/new' %></p> -->

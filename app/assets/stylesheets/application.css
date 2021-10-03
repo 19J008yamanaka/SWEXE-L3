@@ -14,3 +14,101 @@
  *= require_self
  */
 
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 8px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+nav li:hover{
+    border-bottom: solid #00ACEE;
+    padding-bottom: 10px;
+    
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.message_main{
+    
+}
+
+#sidebar{
+    float: left;
+    width: 20%;
+    margin-left: 2.5rem;
+}
+
+.img{
+    width: 10%;
+}
+
+.tw{
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+
+.tw:hover{
+    background-color: #e3f1fc;
+    border-radius: 80px;
+    
+}
+ 
+#main{
+    float: right;
+    width: 75%;
+}
+
+.botan {
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 65%;
+    
+    text-align: center;
+    background-color: #00ACEE;
+    border-radius: 50px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.botan:hover{
+    text-decoration: none;
+    background-color: #008abe;
+}
+
+
+.up{
+    font-size: 20px;
+    border: none;
+    width: 25%;
+}
+
+.message{
+    width: 100%;
+    max-width: 440px;
+    height: 220px;
+    border: none;
+    background-color:  #eeeeee;
+}
